@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": "src",
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "baseUrl": ".", // This is the root directory
+    "paths": {
+      "@algorithms/*": ["src/algorithms/*"],
+      "@ds/*": ["src/data-structures/*"]
+    }
+  },
+  "include": ["src"]
+}
